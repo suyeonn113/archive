@@ -1,0 +1,98 @@
+[1] layout
+- 기본: display / position / top / right / bottom / left / inset / z-index
+- 레거시: float / clear
+- flex:
+  flex-direction / flex-wrap / gap / justify-content / align-items / align-content
+  order / flex / flex-grow / flex-shrink / flex-basis / align-self
+- grid:
+  grid-template-columns / grid-template-rows
+  grid-auto-columns / grid-auto-rows / grid-auto-flow
+  gap / place-items / place-content
+  grid-column / grid-row
+
+[2] box model
+- 기준: box-sizing
+- 크기: width / height
+        min-width / min-height
+        max-width / max-height
+- 여백: margin / padding
+- 테두리: border / border-width / border-style / border-color
+- 넘침: overflow / overflow-x / overflow-y
+
+[3] typography
+- 폰트: font-family / font-size / font-weight / font-style
+- 행·자간: line-height / letter-spacing
+- 정렬: text-align / text-indent / text-transform / text-decoration
+- 줄처리: white-space / word-break / overflow-wrap
+
+[4] visual
+- 색상: color
+- 배경:
+  background / background-color / background-image
+  background-repeat / background-position / background-size
+- 모양: opacity / border-radius / box-shadow
+
+[5] motion / effects
+- 변형: transform
+- 전환:
+  transition / transition-property / transition-duration
+  transition-timing-function / transition-delay
+- 애니:
+  animation / animation-name / animation-duration
+  animation-timing-function / animation-delay / animation-iteration-count
+
+[6] state (항상 마지막)
+- 의미 상태:
+  [hidden]
+  [aria-expanded="true"]
+  [aria-selected="true"]
+  [aria-checked="true"]
+  [aria-disabled="true"]
+- 인터랙션:
+  :hover / :focus / :focus-visible / :active
+
+[7] misc / a11y
+- cursor / pointer-events / user-select
+- outline / outline-offset
+
+
+
+
+--------------------축약 버전--------------------
+
+1. Layout
+display / position / inset / z-index
+float / clear
+flex-* / gap / justify-* / align-* / order
+grid-* / gap / place-* / grid-row / grid-column
+
+2. Box Model
+box-sizing
+width / height / min-* / max-*
+margin / padding
+border-*
+overflow-*
+
+3. Typography
+font-*
+line-height / letter-spacing
+text-align / text-transform / text-decoration
+white-space / word-break / overflow-wrap
+
+4. Visual
+color
+background-*
+opacity / border-radius / box-shadow
+
+5. Motion
+transform
+transition-*
+animation-*
+
+6. State
+[hidden] / [aria-*="true"]
+:hover / :focus / :focus-visible / :active
+
+7. Misc / A11y
+cursor / pointer-events / user-select
+outline / outline-offset
