@@ -1,0 +1,178 @@
+Renewal Project
+
+0. Cover  
+1. Table of Contents  
+2. Background & Rationale  
+3. Project Goals  
+4. Site Analysis  
+5. Market Research  
+6. Benchmarking  
+7. Positioning Map  
+8. SWOT Analysis  
+9. User Analysis (Persona)  
+10. Design Concept  
+11. Information Architecture  
+12. Workflow  
+13. Wireframes / Screen Specification  
+14. UI Design / Design Mockups  
+15. Style Guide  
+16. Development Overview & Details  
+17. Development Environment & Tools  
+18. System & Code Architecture  
+19. Database Design  
+20. Project Schedule  
+21. Budget  
+22. Future Improvements & Expected Impact  
+
+0. 표지
+1. 목차
+2. 프로젝트 배경 및 필요성
+3. 프로젝트 목표
+4. 사이트 현황 분석
+5. 시장 조사
+6. 벤치마킹 분석
+7. 포지셔닝 맵
+8. SWOT 분석
+9. 사용자 분석 (페르소나)
+10. 디자인 컨셉
+11. 정보 구조 설계 (IA)
+12. 사용자 흐름 (Workflow)
+13. 와이어프레임 / 화면 정의서
+14. UI 디자인 / 디자인 시안
+15. 스타일 가이드
+16. 개발 개요 및 개발 내용
+17. 개발 환경 및 사용 도구
+18. 시스템 및 코드 구조
+19. 데이터베이스 설계
+20. 프로젝트 일정 계획
+21. 예산 계획
+22. 향후 개선 방향 및 기대 효과
+
+
+--------------------------------------------------------------
+
+기본 권장 패딩
+
+1. 일반 슬라이드 프레임
+
+좌우: 48px
+상하: 40–48px
+
+→ 가장 안정적인 기본값.
+
+2. 텍스트 박스 / 카드형 영역
+
+상하: 24px
+좌우: 24–32px
+
+3. 타이틀 영역만 따로 잡을 때
+
+위쪽 패딩: 48–64px
+본문 시작까지 간격: 24–32px
+
+--------------------------------------------------------------
+
+타이포그래피 기준
+
+H1(페이지 타이틀)
+글자 크기: 32px
+줄간격: 40px
+
+H2(섹션 제목)
+글자 크기: 24px
+줄간격: 32px
+
+H3(소제목)
+글자 크기: 20px
+줄간격: 28px
+
+본문
+글자 크기: 16px
+줄간격: 24px
+
+보조 텍스트
+글자 크기: 14px
+줄간격: 20px
+
+캡션
+글자 크기: 12–13px
+줄간격: 18–20px
+
+UI 라벨
+글자 크기: 13–14px
+줄간격: 16–20px
+
+간격(Spacing) 기준 – 8px 그리드
+
+요소 내부 여백: 8px
+기본 여백: 16px
+섹션 간 여백: 24px
+주요 블록 간 여백: 32px
+페이지 주요 구분 여백: 48px
+
+
+Typography Scale
+
+H1 (페이지 타이틀)
+글자 크기: 32–36px
+줄간격: 120–130%
+사용 용도: 섹션 제목, 페이지 헤더
+
+H2 (섹션 제목)
+글자 크기: 24–28px
+줄간격: 130%
+사용 용도: 기능 및 챕터 구분
+
+H3 (소제목)
+글자 크기: 20px
+줄간격: 140%
+사용 용도: 화면별 설명 제목
+
+본문 (Body)
+글자 크기: 16px
+줄간격: 150%
+사용 용도: 기획 의도, 설명 문장
+
+보조 설명 (Secondary Text)
+글자 크기: 14px
+줄간격: 150–160%
+사용 용도: 추가 설명, 부연 텍스트
+
+캡션 (Caption)
+글자 크기: 12–13px
+줄간격: 140–150%
+사용 용도: 이미지 설명
+
+라벨 / UI 텍스트 (Label / UI Text)
+글자 크기: 13–14px
+줄간격: 140%
+사용 용도: 버튼, 태그
+
+메타 정보 (Meta Information)
+글자 크기: 12px
+줄간격: 140%
+사용 용도: 날짜, 상태값
+
+Visual Object Text 기준
+
+3개 배치 시: 32–36pt
+4개 배치 시: 28–32pt
+5개 배치 시: 24–28pt
+
+Font Weight 권장 기준
+
+H1 / H2: Medium – Semibold
+H3: Medium
+본문: Regular
+보조 텍스트 / 캡션: Regular
+
+UI 크기 가이드
+
+아이콘 크기: 7–10mm
+탭 높이: 7–10mm
+
+Practical Tips
+
+제목을 과도하게 키우지 않는다
+본문 가독성을 최우선으로 고려한다
+모바일 환경에서는 설명 텍스트를 본문보다 한 단계 작게 설정한다

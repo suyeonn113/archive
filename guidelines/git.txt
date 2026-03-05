@@ -1,0 +1,30 @@
+C:\>폴더명\> cd../cd\
+
+주소창 클릭 후 cmd 입력 후 엔터
+
+git init
+
+git remote add origin 깃허브 주소(복사해서 넣기)
+
+git status (상태 체크)
+
+git add fragfarm-mobile(파일명) 필요시 파일 추가
+
+git add . (모든파일 선택)
+
+git commit -m "message" >> 꼭 문구를 달아놓아야 함!
+ex) 
+initial commit: fragfarm mobile project
+add product page
+style: adjust hero layout
+fix: gallery scroll bug
+
+[1회 인증]
+git config --global user.name "suyeonn113"
+git config --global user.email "suyeonn113@gmail.com"
+
+[용량 25mb 이상 파일 올리기]
+git push origin main/master
+로그인 하기
+
+exit 혹은 x로 끄기
